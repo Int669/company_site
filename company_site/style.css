@@ -226,8 +226,34 @@ h3 {
     font-size: 14px;
 }
 
-/* В ПРАКТИЧЕСКОЙ №9 студент B должен добавить оформление для нового блока #contacts.
-   Не вставляйте готовое решение сюда до начала работы. */
+.contacts {
+  background-color: #f4f6f9;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.contacts h2 {
+  color: #1e2229;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.contacts p {
+  color: #1e2229;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.contacts a {
+  color: #2b4eff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contacts a:hover {
+  text-decoration: underline;
+}
 
 @media (max-width: 760px) {
     .header-inner,
